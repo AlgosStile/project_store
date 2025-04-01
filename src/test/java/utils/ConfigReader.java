@@ -4,6 +4,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * Класс ConfigReader предназначен для загрузки и чтения свойств из файла
+ * конфигурации config.properties.
+ * Содержит статический блок инициализации, который загружает свойства при
+ * загрузке класса
+ */
 public class ConfigReader {
     private static final Properties properties = new Properties();
 
